@@ -1,11 +1,11 @@
 function SearchBar({ search, setSearch }) {
   return (
     <input
-      type="text"
+      type="search"
       placeholder="🔍 Search tasks..."
       value={search}
-      onChange={(e) => setSearch(e.target.value)}
-      className="w-full border border-slate-300 rounded-lg p-3 mb-4 outline-none focus:ring-2 focus:ring-indigo-500"
+      onChange={(event) => setSearch(event.target.value)}
+      className="mb-4 w-full rounded-lg border border-slate-300 bg-white p-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:ring-2 focus:ring-indigo-500 dark:border-slate-600 dark:bg-slate-800 dark:text-white"
     />
   );
 }

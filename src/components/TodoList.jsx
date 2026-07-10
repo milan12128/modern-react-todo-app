@@ -9,12 +9,20 @@ function TodoList({
   setEditText,
   startEditing,
   saveEdit,
+  cancelEditing,
 }) {
   if (tasks.length === 0) {
     return (
-      <div className="text-center py-10 text-slate-500">
-        <p className="text-4xl mb-3">📭</p>
-        <p className="font-semibold">No tasks found</p>
+      <div className="py-12 text-center text-slate-500 dark:text-slate-400">
+        <p className="mb-3 text-5xl">📭</p>
+
+        <p className="text-lg font-semibold text-slate-700 dark:text-slate-200">
+          No tasks found
+        </p>
+
+        <p className="mt-1 text-sm">
+          Add your first task or change the current search/filter.
+        </p>
       </div>
     );
   }
@@ -32,6 +40,7 @@ function TodoList({
           setEditText={setEditText}
           startEditing={startEditing}
           saveEdit={saveEdit}
+          cancelEditing={cancelEditing}
         />
       ))}
     </ul>

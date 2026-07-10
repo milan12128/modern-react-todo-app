@@ -1,16 +1,40 @@
-# React + Vite
+# Modern React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive task-management application built with React, Vite and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://modern-react-todo-app-six.vercel.app/
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add, edit and delete tasks
+- Complete and pending task tracking
+- Priority levels
+- Due dates and overdue warnings
+- Search and status filters
+- Progress dashboard
+- Clear completed tasks
+- Confirmation dialogs
+- Toast notifications
+- Dark and light themes
+- Local Storage persistence
+- Responsive mobile design
+- Keyboard support
 
-## Expanding the Oxlint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- Vite
+- Tailwind CSS
+- Local Storage
+- Vercel
+
+## Run Locally
+
+```bash
+git clone https://github.com/milan12128/modern-react-todo-app.git
+cd modern-react-todo-app
+npm install
+npm run dev
